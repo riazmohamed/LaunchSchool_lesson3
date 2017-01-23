@@ -1,8 +1,10 @@
 # question4.rb
 # See if the name "Dino" appears in the string below:
 
-# /dino/.match(advice) 
+# Popular options
+# /dino/.match(advice)
 # /dino/ =~ advice
+# advice.match("dino")
 
 def match_string(string_value, match_data)
   match_data =~ string_value
